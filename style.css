@@ -1,5 +1,13 @@
+/* At the top level of your code */
+
+@media screen and (min-width: 900px) {
+    article {
+        padding: 1rem 3rem;
+    }
+}
+
 * {
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif
 }
 
 header {
@@ -24,7 +32,7 @@ section figure img {
 }
 
 figure {
-    padding: 64px;
+    padding: 24px;
 }
 
 figcaption {
