@@ -13,12 +13,17 @@
 header {
     background-color: #082bf2e9;
     text-align: center;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 400;
     color: #fefefe;
     padding: 1em 0;
 }
-
+h1 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 1em 0;
+}
 main {
     text-align: center;
     background-color: #08b4f2d6;
