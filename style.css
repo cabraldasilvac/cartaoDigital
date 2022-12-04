@@ -50,15 +50,6 @@ body {
   filter: drop-shadow(-5px -10px 10px rgba(0, 0, 0, 0.25));
 }
 
-.header {
-  background: var(--background);
-  text-align: center;
-  font-size: 1.25rem;
-  font-weight: 400;
-  color: aliceblue;
-  width: 100%;
-  padding: 1em 0;
-}
 .button {
   display: flex;
   align-items: center;
@@ -96,7 +87,7 @@ body {
 .footer {
   background: var(--background);
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 10px;
   font-weight: 400;
   color: aliceblue;
   padding: 1em 0;
