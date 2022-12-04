@@ -6,11 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Cartão Digital</title>
-    <!--   <link rel="stylesheet" href="normalize.css" />-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/2.3.0/css/reset.min.css"
-    />
+    <!-- <link rel="stylesheet" href="normalize.css" />-->
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -18,74 +15,70 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css" />
-    <!--  <link rel="preconnect" href="https://fonts.googleapis.com" />-->
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,700&family=Nunito+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&family=Righteous&family=Roboto:wght@400;700&family=Sarala&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
     />
   </head>
 
   <body>
-    <main>
-      <header class="topo">
-        <p>Olá ! <br />Bem-vindo ao meu cartão de visitas digital.</p>
-        <h1>Clique no link abaixo e visite as minhas redes sociais.</h1>
-      </header>
-
-      <section>
-        <figure>
+    <header class="header">
+      <h1>Bem-vindo ao meu cartão de visitas digital.</h1>
+      <h3>Clique no link abaixo e visite as minhas redes sociais.</h3>
+      <h4>Deixe um comentário, sempre será bem-vindo.</h4>
+    </header>
+    <main class="container">
+      <div class="card">
+        <div class="profileWrapper">
           <img
+            class="profile"
             src="https://avatars.githubusercontent.com/u/39313251?v=4"
             alt="foto"
           />
-          <!--Minha Foto-->
-          <figcaption>Wanderley Cabral</figcaption>
-        </figure>
-      </section>
+          <p class="name">Wanderley Cabral</p>
+        </div>
 
-      <section>
-        <ul>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/cabraldasilvac/"
-              target="_blank"
-              alt="LinkedIn"
-            >
-              <i class="fa-brands fa-linkedin"></i> LinkedIn
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/cabraldasilvac"
-              target="_blank"
-              alt="GitGub"
-            >
-              <i class="fa-brands fa-github"></i> Github
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.instagram.com/pr.wanderley_cabral/"
-              target="_blank"
-              alt="Instagram"
-            >
-              <i class="fa-brands fa-instagram"></i> Instagram
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://twitter.com/wanderleycabral"
-              target="_blank"
-              alt="Twitter"
-            >
-              <i class="fa-brands fa-twitter"></i> Twitter
-            </a>
-          </li>
-        </ul>
-      </section>
+        <a
+          class="button LinkedIn-color"
+          href="https://www.linkedin.com/in/cabraldasilvac/"
+          target="_blank"
+          alt="LinkedIn"
+        >
+          <span><i class="fa-brands fa-linkedin fa-2x"></i> LinkedIn </span>
+        </a>
+
+        <a
+          class="button GitHub-color"
+          href="https://github.com/cabraldasilvac"
+          target="_blank"
+          alt="GitGub"
+          ><span> <i class="fa-brands fa-github fa-2x"></i> Github </span>
+        </a>
+
+        <a
+          class="button Instagram-color"
+          href="https://www.instagram.com/pr.wanderley_cabral/"
+          target="_blank"
+          alt="Instagram"
+        >
+          <span> <i class="fa-brands fa-instagram fa-2x"></i>Instagram </span>
+        </a>
+
+        <a
+          class="button twitter-color"
+          href="https://twitter.com/wanderleycabral"
+          target="_blank"
+          alt="Twitter"
+          ><span> <i class="fa-brands fa-twitter fa-2x"></i> Twitter </span>
+        </a>
+      </div>
     </main>
-    <footer>© Copyright WMS - 2022</footer>
+    <footer class="footer">© Copyright WMS - 2022</footer>
   </body>
 </html>
